@@ -20,7 +20,7 @@ namespace BakeryShop.Tests
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
       Pastry bread = new Bread(10);
-      Assert.AreEqual(10, bread.Cart());
+      Assert.AreEqual(10, bread.Count);
     }
     [TestMethod]
     public void BreadGetCost_ReturnsCost_Cost()
@@ -74,7 +74,7 @@ namespace BakeryShop.Tests
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
       Pastry pastry = new Pastry(10);
-      Assert.AreEqual(10, pastry.Cart());
+      Assert.AreEqual(10, pastry.Count);
     }
     [TestMethod]
     public void PastryGetCost_ReturnsCost_Cost()
