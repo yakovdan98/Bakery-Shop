@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BakeryShop.Models;
+using System;
 
 namespace BakeryShop.Tests
 {
@@ -52,6 +53,7 @@ namespace BakeryShop.Tests
     public void BreadGetCostMore_ReturnsCost_Cost()
     {
       Bread bread4 = new Bread(4);
+      Console.WriteLine(bread4.GetCost());
       Assert.AreEqual(15, bread4.GetCost());
     }
   }

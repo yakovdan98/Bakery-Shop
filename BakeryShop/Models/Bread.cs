@@ -11,7 +11,9 @@ namespace BakeryShop.Models
 
     public int GetCost() 
     {
-      return this.Count * 5;
+      int discount = this.Count / 3;
+      int cost = (this.Count * 5) - (discount * 5);
+      return cost;
     }
   }
 }
