@@ -2,17 +2,16 @@ using System;
 
 namespace BakeryShop.Models
 {
-  public class Pastry
+  public class Pastry : BakeryItem
   {
     // properties, constructors, methods, etc. go here
-    public int Count { get; set; }
 
     public Pastry(int Count)
     {
       this.Count = Count;
     }
 
-    public int GetCost()
+    public override int GetCost()
     {
 
 
