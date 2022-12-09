@@ -28,16 +28,33 @@ namespace BakeryShop.Tests
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
       Pastry bread = new Bread(0);
-      Pastry bread1 = new Bread(1);
-      Pastry bread2 = new Bread(2);
-      Pastry bread3 = new Bread(3);
-      Pastry bread4 = new Bread(4);
       Assert.AreEqual(0, bread.GetCost());
-      Assert.AreEqual(5, bread1.GetCost());
-      Assert.AreEqual(10, bread2.GetCost());
-      Assert.AreEqual(10, bread3.GetCost());
-      Assert.AreEqual(15, bread4.GetCost());
 
+
+    }
+    [TestMethod]
+    public void GetCostOne_ReturnsCost_Cost()
+    {
+      Pastry bread1 = new Bread(1);
+      Assert.AreEqual(5, bread1.GetCost());
+    }
+    [TestMethod]
+    public void GetCostTwo_ReturnsCost_Cost()
+    {
+      Pastry bread2 = new Bread(2);
+      Assert.AreEqual(10, bread2.GetCost());
+    }
+    [TestMethod]
+    public void GetCostDiscount_ReturnsCost_Cost()
+    {
+      Pastry bread3 = new Bread(3);
+      Assert.AreEqual(10, bread3.GetCost());
+    }
+    [TestMethod]
+    public void GetCostMore_ReturnsCost_Cost()
+    {
+      Pastry bread4 = new Bread(4);
+      Assert.AreEqual(15, bread4.GetCost());
     }
   }
 
