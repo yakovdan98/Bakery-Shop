@@ -8,5 +8,10 @@ namespace BakeryShop.Models
     {
       this.Count = Count;
     }
+
+    public int GetCost() 
+    {
+      return this.Count * 5;
+    }
   }
 }

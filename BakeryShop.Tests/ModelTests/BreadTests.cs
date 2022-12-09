@@ -11,15 +11,15 @@ namespace BakeryShop.Tests
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
-      Pastry bread = new Bread(10);
-      Assert.AreEqual(typeof(Pastry), bread.GetType());
+      Bread bread = new Bread(10);
+      Assert.AreEqual(typeof(Bread), bread.GetType());
     }
     [TestMethod]
     public void BreadConstructor_CreatesBreadObject_NumberOfBreadsBought()
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
-      Pastry bread = new Bread(10);
+      Bread bread = new Bread(10);
       Assert.AreEqual(10, bread.Count);
     }
     [TestMethod]
@@ -27,31 +27,31 @@ namespace BakeryShop.Tests
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
-      Pastry bread = new Bread(0);
+      Bread bread = new Bread(0);
       Assert.AreEqual(0, bread.GetCost());
     }
     [TestMethod]
     public void BreadGetCostOne_ReturnsCost_Cost()
     {
-      Pastry bread1 = new Bread(1);
+      Bread bread1 = new Bread(1);
       Assert.AreEqual(5, bread1.GetCost());
     }
     [TestMethod]
     public void BreadGetCostTwo_ReturnsCost_Cost()
     {
-      Pastry bread2 = new Bread(2);
+      Bread bread2 = new Bread(2);
       Assert.AreEqual(10, bread2.GetCost());
     }
     [TestMethod]
     public void BreadGetCostDiscount_ReturnsCost_Cost()
     {
-      Pastry bread3 = new Bread(3);
+      Bread bread3 = new Bread(3);
       Assert.AreEqual(10, bread3.GetCost());
     }
     [TestMethod]
     public void BreadGetCostMore_ReturnsCost_Cost()
     {
-      Pastry bread4 = new Bread(4);
+      Bread bread4 = new Bread(4);
       Assert.AreEqual(15, bread4.GetCost());
     }
   }
@@ -66,7 +66,7 @@ namespace BakeryShop.Tests
       // any necessary logic to prep for test; instantiating new classes, etc.
       // Template: ``` Assert.AreEqual(EXPECTED_RESULT, CODE_TO_TEST); ```
       Pastry pastry = new Pastry(10);
-      Assert.AreEqual(typeof(Pastry), bread.GetType());
+      Assert.AreEqual(typeof(Pastry), pastry.GetType());
     }
     [TestMethod]
     public void PastryConstructor_CreatesPastryObject_NumberOfPastriesBought()
