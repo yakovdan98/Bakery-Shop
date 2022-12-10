@@ -2,42 +2,25 @@
 
 #### By Daniel Yakovlev
 
-#### A short description of ProjectName
+#### A Program that takes number of pastries and breads that a user wants to buy and output a cost for the combined items. There are deals that are applied depending on how many items are bought for each
 
 ## Technologies Used
 
 * C#
 * .Net 6
 
-## Description
-
-### Objectives (MVP)
-
-<!-- [x] Screenshots
-
-![Screenshots](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.03bZmDGXaBhBYyxxp3Ls3gHaEA%26pid%3DApi&f=1&ipt=e980d57210242747a51c41421e1f09a6de3b1fdaeaadd297496787bb64e80c88&ipo=images) -->
-
-<!-- [Link to operational site](http://www.kirstenopstad.github.com/<REPOSITORY NAME>) -->
-
-### Goals
-1. Meet MVP
-2. Goal 2
-3. Goal 3
 
 ## Setup/Installation Requirements
 
 * Clone this repo to your workspace.
 * Navigate to the top level of the directory.
-* Navigate to program directory ``` $ cd ProjectName ```
+* Navigate to program directory ``` $ cd Bakery.Solution\BakeryShop ```
 * Build the project with ``` $ dotnet build ```
 * Run the project with ``` $ dotnet run ```
 
 ## Known Bugs
 
-* No known bugs. If you find one, please email me at kirsten.opstad@gmail.com with the subject **[_Repo Name_] Bug** and include:
-  * BUG: _A brief description of the bug_
-  * FIX: _Suggestion for solution (if you have one!)_
-  * If you'd like to be credited, please also include your **_github user profile link_**
+* No known bugs
 
 ## License
 <!-- [Choose License](https://choosealicense.com/) -->
