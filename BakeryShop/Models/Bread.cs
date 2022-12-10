@@ -4,9 +4,10 @@ namespace BakeryShop.Models
   {
     // properties, constructors, methods, etc. go here
     
-    public Bread(int Count)
+    public Bread(int Count, string Type = "regular")
     {
       this.Count = Count;
+      this.Type = Type;
     }
 
     public override int GetCost() 
