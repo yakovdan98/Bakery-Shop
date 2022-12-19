@@ -18,6 +18,12 @@
 * Build the project with ``` $ dotnet build ```
 * Run the project with ``` $ dotnet run ```
 
+## Testing Requirements
+
+* Clone this repo to your workspace.
+* Navigate to the top level of the directory.
+* Test the project with ``` $ dotnet test BakeryShop.Tests ```
+
 ## Known Bugs
 
 * No known bugs
